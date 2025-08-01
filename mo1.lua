@@ -1,19 +1,17 @@
--- 保留的 OrionLib 框架结构
 local OrionLib = 
 loadstring(game:HttpGet("https://raw.
 githubusercontent.com/wsomoQaz/lua-/main/
 Xcccc"))()
 
 local Window = OrionLib:MakeWindow({
-    IntroText = "缝合脚本", --加载动画
-    Name = "缝合脚本 " .. identifyexecutor(), --
-脚本名字
+    IntroText = "缝合脚本", 
+    Name = "缝合脚本 " .. identifyexecutor()
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = ""
 })
 
--- 示例 Tab 页面
+
 local Tab = Window:MakeTab({
     Name = "功能",
     Icon = "rbxassetid://7733779610",
