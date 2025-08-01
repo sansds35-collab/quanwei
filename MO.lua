@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
     Name = "CDID NE"
-    Callback = function()
+    Callback = function
     _G.Script_Key = "MoonKey_CdidByNEHubUserninth"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LENG8123/cdid-script/refs/heads/main/cdid.txt"))()
     end
