@@ -1,0 +1,28 @@
+-- 保留的 OrionLib 框架结构
+local OrionLib = 
+loadstring(game:HttpGet("https://raw.
+githubusercontent.com/wsomoQaz/lua-/main/
+Xcccc"))()
+
+local Window = OrionLib:MakeWindow({
+    IntroText = "缝合脚本", --加载动画
+    Name = "缝合脚本 " .. identifyexecutor(), --
+脚本名字
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = ""
+})
+
+-- 示例 Tab 页面
+local Tab = Window:MakeTab({
+    Name = "功能",
+    Icon = "rbxassetid://7733779610",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "script name"
+    Callback = function
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
+    end
+})
